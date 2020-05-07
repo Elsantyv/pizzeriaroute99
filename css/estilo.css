@@ -134,8 +134,6 @@ p{
 
 }
 
-
-
 .diseño-menu a:last-child{
 
   margin-right: 0;/**Margen por la derecha**/
@@ -145,6 +143,56 @@ p{
 .diseño-menu a:hover{
 
   /**Hay que hacer lineas o icono de hover**/
+
+}
+
+.icono{
+
+  color: WHITE;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+
+}
+
+#check{
+
+  display: none;
+
+}
+
+@media(max-width:768px) {
+
+  .icono{
+
+    display: block;
+
+  }
+
+  .diseño-menu{
+
+    position: fixed;
+    width: 99%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 80px;
+    left: -100%;/**Lo esconde a la izquierda**/
+    text-align: center;
+    transition: all .5s;
+
+  }
+
+  .diseño-menu a{
+
+    display: block;
+
+  }
+
+  #check:checked ~ .diseño-menu{
+
+    left: 0;
+
+  }
 
 }
 
