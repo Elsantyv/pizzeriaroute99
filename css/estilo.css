@@ -176,8 +176,8 @@ p{
 
     position: fixed;
     width: 99%;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.8);
+    height: 301px;
+    background-color: rgba(46, 41, 41, 0.8);
     top: 200px;
     left: -100%;/**Lo esconde a la izquierda**/
     text-align: center;
