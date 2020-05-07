@@ -85,7 +85,7 @@ p{
 
   width: 96%;
   max-width: 10rem;
-  position: absolute;
+  position: relative;
   z-index: 2;
 
 }
@@ -149,9 +149,12 @@ p{
 .icono{
 
   color: WHITE;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
   display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  text-align: center;
 
 }
 
@@ -173,9 +176,9 @@ p{
 
     position: fixed;
     width: 99%;
-    height: 100vh;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.8);
-    top: 80px;
+    top: 200px;
     left: -100%;/**Lo esconde a la izquierda**/
     text-align: center;
     transition: all .5s;
