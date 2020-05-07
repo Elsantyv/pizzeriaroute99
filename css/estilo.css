@@ -140,9 +140,26 @@ p{
 
 }
 
-.diseño-menu a:hover{
+.icono-menu{
 
-  /**Hay que hacer lineas o icono de hover**/
+  padding-right: 0.8rem;
+  display: none;
+
+}
+
+.diseño-menu a:hover .icono-menu{
+
+  display: inline;
+
+}
+
+@media(min-width:768px){
+
+  .diseño-menu a:hover .icono-menu{
+
+    display: block;
+  
+  }
 
 }
 
